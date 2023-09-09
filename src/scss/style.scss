@@ -1,0 +1,35 @@
+@import "./utils/variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+.home-bg {
+    background: url(../../img/home-bg-dark.png ) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fs{
+    font-size: 20px;
+
+}
+
+html, body {
+    height: 100%;
+
+}
+main{
+    height: 100%;
+    margin-top: -104px;
+}
