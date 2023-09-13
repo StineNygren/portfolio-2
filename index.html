@@ -9,54 +9,55 @@
       content="Discover the world of coffee with our comprehensive coffee blog. Explore brewing techniques, coffee recipes, bean varieties, and more. Immerse yourself in the aroma, flavors, and stories behind your favorite caffeinated beverage. Whether you're a coffee connoisseur or just starting your coffee journey, our blog is your go-to resource for all things coffee-related. Join us and elevate your coffee experience today!"
     />
     <link rel="stylesheet" href="./dist/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e6258cfd5.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script
       defer
       src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
     ></script>
+    <script defer src="./js/script.js"></script>
 
     <title>SN</title>
   </head>
   <body class="home-bg">
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <a class="navbar-brand m-3" href="https://mdbgo.com/">
             <p class="text-white">{<span class="text-primary">SN</span>}</p>
           </a>
-          <button
-            class="mb-2 navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end text-center"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav align-items-end">
+          <div class="toggle-butten">
+            <i
+              onclick="myFunction(this)"
+              class="fa fa-bars"
+              aria-label="Toggle Navigation Menu"
+            ></i>
+          </div>
+          <div class="justify-content-end text-center navigation-section">
+            <!-- collapse navbar-collapse -->
+            <ul class="navbar-nav align-items-end navigation-list">
               <li class="nav-item">
-                <a href="" class="m-3 text-white text-decoration-none btn"
+                <a href="" class="my-3 m-2 text-white text-decoration-none btn"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a href="" class="m-3 text-white text-decoration-none btn"
+                <a href="" class="my-3 m-2 text-white text-decoration-none btn"
                   >About</a
                 >
               </li>
               <li class="nav-item">
-                <a href="" class="m-3 text-white text-decoration-none btn"
+                <a href="" class="my-3 m-2 text-white text-decoration-none btn"
                   >Projects</a
                 >
               </li>
               <li class="nav-item">
-                <a href="./resume.html" class="btn btn-primary m-3 text-white"
+                <a
+                  href="./resume.html"
+                  class="btn btn-primary my-3 m-2 text-white"
                   >Resume</a
                 >
               </li>

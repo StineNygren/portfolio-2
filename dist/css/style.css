@@ -11877,4 +11877,38 @@ main {
   margin-top: -104px;
 }
 
+.navbar-brand {
+  z-index: 10;
+}
+
+.toggle-butten {
+  display: none;
+}
+
+.navigation-list a {
+  text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+  .navigation-list {
+    display: none;
+  }
+  .navigation-list.active {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    inset: 0 0 0 0;
+    padding: 5rem 1rem 0 0;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .toggle-butten {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    z-index: 9990;
+    color: white;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
