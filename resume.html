@@ -4,9 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lecture</title>
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e6258cfd5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      defer
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script>
     <script defer src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>SN</title>
   </head>
-  <body></body>
+  <body class="body-bg">
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand m-3" href="https://mdbgo.com/">
+            <p class="text-white">{<span class="text-primary">SN</span>}</p>
+          </a>
+          <div class="toggle-butten">
+            <i
+              onclick="myFunction(this)"
+              class="fa fa-bars"
+              aria-label="Toggle Navigation Menu"
+            ></i>
+          </div>
+          <div class="justify-content-end text-center navigation-section">
+            <!-- collapse navbar-collapse -->
+            <ul class="navbar-nav align-items-end navigation-list">
+              <li class="nav-item">
+                <a
+                  href="./index.html"
+                  class="my-3 m-2 text-white text-decoration-none btn"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./about.html"
+                  class="my-3 m-2 text-white text-decoration-none btn"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./projects.html"
+                  class="my-3 m-2 text-white text-decoration-none btn"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./resume.html"
+                  class="btn btn-primary my-3 m-2 text-white"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <a href="./Trello.pdf" download class="btn btn-primary text-white"
+        >Download</a
+      >
+    </main>
+  </body>
 </html>

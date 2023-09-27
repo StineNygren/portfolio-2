@@ -4,9 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lecture</title>
-    <script defer src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e6258cfd5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      defer
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script>
+    <script defer type="module" src="./js/script.js"></script>
+
+    <title>SN</title>
   </head>
-  <body></body>
+  <body class="body-bg">
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand m-3" href="https://mdbgo.com/">
+            <p class="text-white">{<span class="text-primary">SN</span>}</p>
+          </a>
+          <div class="toggle-butten">
+            <i
+              onclick="myFunction(this)"
+              class="fa fa-bars"
+              aria-label="Toggle Navigation Menu"
+            ></i>
+          </div>
+          <div class="justify-content-end text-center navigation-section">
+            <!-- collapse navbar-collapse -->
+            <ul class="navbar-nav align-items-end navigation-list">
+              <li class="nav-item">
+                <a
+                  href="./index.html"
+                  class="my-3 m-2 text-white text-decoration-none btn"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./about.html"
+                  class="my-3 m-2 text-white text-decoration-none btn"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./projects.html"
+                  class="my-3 m-2 text-white text-decoration-none btn"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./resume.html"
+                  class="btn btn-primary my-3 m-2 text-white"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="m-sm-1 container-xxl d-flex flex-column flex-md-row justify-content-lg-evenly align-items-center justify-content-center"
+      >
+        <section class="aboutme-text">
+          <h1 class="text-primary">About me</h1>
+          <p class="text-white">
+            I'm currently studying to become a front-end developer at Noroff
+            School of Technology. It's a two-year program, and I'll be
+            graduating by summer 2024. During this course, I'll learn all the
+            important coding languages and also get hands-on experience with
+            UI/UX design. What I enjoy most about front-end development is that
+            it lets me work on problem-solving in my code while also being
+            visually creative with the design.
+          </p>
+          <p class="text-white">
+            Before becoming a student, I worked as a hairdresser for seven
+            years, and I still work part-time in that field while studying.
+            Although it's quite different from what I'm learning now, I've
+            gained valuable skills and developed a strong work ethic during my
+            time as a hairdresser and from previous work.
+          </p>
+          <p class="text-white">
+            I believe that merging my background in hairdressing with my passion
+            for technology brings a unique perspective to my work as a front-end
+            developer. I approach challenges with enthusiasm and dedication,
+            always striving to find innovative solutions and create
+            user-friendly experiences.
+          </p>
+          <div class="contact">
+            <h5 class="text-white">Contact me</h5>
+            <a
+              class="text-decoration-none"
+              href="mailto: stinenygren@hotmail.com "
+              >Mail me /</a
+            >
+            <a
+              class="text-decoration-none"
+              href="https://www.linkedin.com/in/stine-nygren/"
+              >LinkedIn</a
+            >
+          </div>
+        </section>
+        <section class="aboutme-img-skill">
+          <div class="aboutme-img">
+            <img src="./img/profile-img.jpg" alt="my facebook image" />
+          </div>
+          <div class="aboutme-scills"></div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>

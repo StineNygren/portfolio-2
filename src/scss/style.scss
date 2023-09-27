@@ -1,6 +1,7 @@
 @import "./utils/variables";
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/pages/projects";
 
 
 
@@ -29,9 +30,22 @@ html, body {
     height: 100%;
 
 }
-main{
+.main-home{
     height: 100%;
     margin-top: -104px;
+}
+
+
+
+
+
+  .home-img img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+  
+
+
 }
 
 .navbar-brand{
@@ -53,12 +67,21 @@ main{
   
   @media (max-width: 576px) {
 
+    .home-img img{
+      width: 10rem;
+      height: 10rem;
+      object-fit: cover;
+    
+    }
+
+ 
+
     .navigation-list {
       display: none;
     }
     .navigation-list.active {
       display: flex;
-      background-color: black;
+      background: rgba(0, 0, 0, 0.80);
       position: fixed;
       inset: 0 0 0 0;
       padding: 5rem 1rem 0 0;
@@ -75,4 +98,9 @@ main{
       z-index: 9990;
       color: white;
     }
+  }
+
+  .aboutme-img img{
+    height: 300px;
+    width: 300px;
   }
