@@ -11854,6 +11854,10 @@ textarea.form-control-lg {
   background: #000000;
 }
 
+i {
+  font-size: 30px;
+}
+
 .home-bg {
   background: url(../../img/home-bg-dark.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11928,6 +11932,15 @@ html, body {
 .aboutme-img img {
   height: 300px;
   width: 300px;
+}
+
+.project-img img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.git-icon i {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

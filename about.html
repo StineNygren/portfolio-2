@@ -15,7 +15,7 @@
       defer
       src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
     ></script>
-    <script defer type="module" src="./js/script.js"></script>
+    <script defer src="./js/script.js"></script>
 
     <title>SN</title>
   </head>
@@ -69,11 +69,13 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main
+      class="d-flex justify-content-lg-evenly align-items-center justify-content-center"
+    >
       <section
-        class="m-sm-1 container-xxl d-flex flex-column flex-md-row justify-content-lg-evenly align-items-center justify-content-center"
+        class="m-1 m-md-3 container d-flex flex-column flex-lg-row justify-content-lg-evenly align-items-center justify-content-center"
       >
-        <section class="aboutme-text">
+        <section class="aboutme-text mx-md-5">
           <h1 class="text-primary">About me</h1>
           <p class="text-white">
             I'm currently studying to become a front-end developer at Noroff
@@ -102,21 +104,29 @@
             <h5 class="text-white">Contact me</h5>
             <a
               class="text-decoration-none"
+              target="_blank"
               href="mailto: stinenygren@hotmail.com "
               >Mail me /</a
             >
             <a
               class="text-decoration-none"
+              target="_blank"
               href="https://www.linkedin.com/in/stine-nygren/"
               >LinkedIn</a
             >
           </div>
         </section>
-        <section class="aboutme-img-skill">
-          <div class="aboutme-img">
+        <section class="aboutme-img-skill mx-md-5">
+          <div class="aboutme-img mt-3">
             <img src="./img/profile-img.jpg" alt="my facebook image" />
           </div>
-          <div class="aboutme-scills"></div>
+          <div class="aboutme-skills m-3 d-flex justify-content-between">
+            <h5 class="text-primary">Skills</h5>
+            <i class="fa-brands fa-html5 text-primary"></i>
+            <i class="fa-brands fa-css3-alt text-primary"></i>
+            <i class="fa-brands fa-js text-primary"></i>
+            <i class="fa-brands fa-bootstrap text-primary"></i>
+          </div>
         </section>
       </section>
     </main>

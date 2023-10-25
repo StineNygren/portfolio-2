@@ -4,7 +4,9 @@
 @import "../scss/pages/projects";
 
 
-
+i{
+  font-size: 30px;
+}
 
 
 .home-bg {
@@ -103,4 +105,13 @@ html, body {
   .aboutme-img img{
     height: 300px;
     width: 300px;
+  }
+
+  .project-img img{
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .git-icon i{
+    font-size: 25px;
   }
