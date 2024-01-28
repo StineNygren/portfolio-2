@@ -2,6 +2,15 @@ const projectContainer = document.querySelector(".project-container");
 
 const projectApi = [
   {
+    title: "Auction Avenue",
+    img: "../img/AuctionAvenue1.png",
+    date: "2023",
+    url: "https://stinenygren.github.io/nygren_semester_project_2/",
+    description:
+      "Auction Avenue is a pretend auction site where people can make their own auction or bid on someone else's. The site was made using an API provided by Noroff and is fully responsive. It has been tested using Jest and Cypress and had passed all Github Actions.  ",
+    git: "https://github.com/StineNygren/nygren_semester_project_2",
+  },
+  {
     title: "GoldBrews",
     img: "../img/goldbrew.png",
     date: "2023",
@@ -13,7 +22,7 @@ const projectApi = [
   {
     title: "Community Science Museum",
     img: "../img/museum.png",
-    date: "2023",
+    date: "2022",
     url: "https://stupendous-stroopwafel-8bf13b.netlify.app/",
     description:
       "The entire website was built using HTML and CSS, ensuring all the necessary functionality while keeping it lightweight. The website is fully responsive, adapting to different screen sizes and devices.",
@@ -22,7 +31,7 @@ const projectApi = [
   {
     title: "Rainy Days",
     img: "../img/rainydays.png",
-    date: "2023",
+    date: "2022",
     url: "https://glittering-jelly-7e2d94.netlify.app/",
     description:
       "First built using HTML and CSS, I later added a WordPress API and JavaScript to update the site's capabilities. The website is fully responsive, adapting to different screen sizes and devices.",
