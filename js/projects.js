@@ -2,6 +2,24 @@ const projectContainer = document.querySelector(".project-container");
 
 const projectApi = [
   {
+    title: "Holidaze",
+    img: "../img/holidaze.png",
+    date: "2024",
+    url: "https://holidazze.netlify.app",
+    description:
+      "Holidaze is a fictional hotel booking site where users can search for hotels, view details, and make bookings. The site was built using React, Redux, and Material-UI. It is fully responsive and has been tested using Cypress.",
+    git: "https://github.com/StineNygren/stine_nygren_exam_2",
+  },
+  {
+    title: "Shopop",
+    img: "../img/shopop.png",
+    date: "2024",
+    url: "https://nimble-rabanadas-69ddec.netlify.app",
+    description:
+      "Shopop is a fictional e-commerce site where users can view products, add them to their cart, and make purchases. The site was built using React and Material-UI. It is fully responsive.",
+    git: "https://github.com/StineNygren/stine_react_ca",
+  },
+  {
     title: "Auction Avenue",
     img: "../img/AuctionAvenue1.png",
     date: "2023",
@@ -58,11 +76,12 @@ projectApi.forEach((project) => {
 <div class="project-img">
 <img class="mb-3"  src="${project.img}">
 </div>
+</a>
 <div class="d-flex flex-row justify-content-between">
-<p>${project.date}</p>
+<p class="text-primary">${project.date}</p>
 <a class="git-icon" href="${project.git}"><i class="fa-brands fa-github"></i></a>
 </div>
 <P class="text-white">${project.description}</P>
-</a>
+
 </div>`;
 });
